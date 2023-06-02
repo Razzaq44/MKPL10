@@ -5,4 +5,35 @@
       org.sonarsource.scanner.maven
      </pluginGroup>
    </pluginGroups>
+
+   <activeProfiles>
+    <activeProfile>github</activeProfile>
+  </activeProfiles>
+
+  <profiles>
+    <profile>
+      <id>github</id>
+      <repositories>
+        <repository>
+          <id>central</id>
+          <url>https://repo1.maven.org/maven2</url>
+        </repository>
+        <repository>
+          <id>github</id>
+          <url>https://maven.pkg.github.com/razzaq44/MKPL10</url>
+          <snapshots>
+            <enabled>true</enabled>
+          </snapshots>
+        </repository>
+      </repositories>
+    </profile>
+  </profiles>
+
+  <servers>
+    <server>
+      <id>github</id>
+      <username>razzaq44</username>
+      <password>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</password>
+    </server>
+  </servers>
 </settings>
