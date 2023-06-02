@@ -11,6 +11,14 @@ public class Driver {
 		counter.increment();
 		
 		System.out.println("Count:" + counter.getCount());
+
+		counter.increment();
+		
+		System.out.println("Count:" + counter.getCount());
+
+		counter.increment();
+		
+		System.out.println("Count:" + counter.getCount());
 		
 		counter.decrement();
 		
