@@ -16,7 +16,7 @@
    <repository>
      <id>github</id>
      <name>GitHub razzaq44 Apache Maven Packages</name>
-     <url>https://maven.pkg.github.com/razzaq44/MKPL10</url>
+     <url>https://maven.pkg.github.com/Razzaq44/MKPL10</url>
    </repository>
 </distributionManagement>
   
